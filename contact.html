@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- bootstrap file link -->
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <!-- css file created -->
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+
+<body>
+
+    <!-- navigation bar -->
+<nav class= "navbar navbar-expand-md navbar-light  sticky-top" > 
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">MoviEra</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+    
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="malayalam.html">Malayalam</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="english.html">English</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="hindi.html">Hindi</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="tamil.html">Tamil</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Other_languages.html">Other Languages</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+    
+    
+                    <a class="nav-link" href="disclaimer.html">Disclaimer</a>
+                <li class="nav-item">    
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    
+    <!-- welcome section -->
+    
+    <div class="container-fluid padding">
+        <div class="row text-center welcome">
+            <div class="col-12">
+                <h1 class="display-4">MoviEra</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                    Contact Us:
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- Contactus form -->
+<!-- ===================================== -->
+<div class="col-md-6 col-md-offset-3">
+				  				
+    <form class="form-horizontal" role="form" method="post" action="/home.html">
+        <div class="form-group"><br>
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First &amp; Last Name" value="">
+                <p class="text-danger"></p>						</div>
+            </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                <p class="text-danger"></p>						</div>
+        </div>
+        <div class="form-group">
+            <label for="purpose" class="col-sm-2 control-label">Purpose</label>
+                <div class="col-sm-10">
+                    <select class="form-control" name="purpose" value="">
+                        <option vlaue="Feedback Or Request">Feedback Or Request</option>
+                        <option vlaue="Copyrigth">Copyright</option>
+                        <option value="Broken Links">Broken Links</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+        </div>
+        <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Message</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="message" placeholder="Your Message"></textarea>
+                <p class="text-danger"></p>						</div>
+        </div>
+        <!-- <div class="form-group">
+            <label for="human" class="col-sm-2 control-label">9 - 2 = ?</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                <p class="text-danger"></p>						</div>
+        </div> -->
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                    
+            </div>
+        </div>
+    </form> 
+</div>
+
+
+
+
+
+
+<!-- connect footer -->
+
+<div class="container-fluid padding">
+    <div class="row text-center welcome">
+        <div class="col-12 ftr">
+            <!-- <div><a href="#">ABOUT</a></div>
+            <div><a href="#">CONTACT</a></div>  -->
+        
+            <ul>
+                <li>
+                    <a href="home.html">Home</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="contact.html">Contact</a> | <a href="#">Telegram</a> 
+                </li>
+                <li>
+                    © MoviEra 2019 all rights reserved.
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+
+
+
+</html>
+
+
